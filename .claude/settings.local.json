@@ -1,13 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(pip install:*)",
-      "Bash(python3:*)",
-      "Bash(source:*)",
-      "Bash(mkdocs:*)",
-      "Bash(ls -la *.md)",
-      "Bash(mv:*)"
+      "Bash(git config --list)",
+      "Bash(gh auth status)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git remote remove origin)",
+      "Bash(git remote add origin https://github.com/sooogooo/ebooks-beautiful-mind.git)",
+      "Bash(git add:*)"
     ],
-    "deny": []
+    "deny": [],
+    "ask": []
   }
 }
