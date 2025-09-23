@@ -6,7 +6,10 @@
       "Bash(ssh -T git@github.com)",
       "Bash(git remote remove origin)",
       "Bash(git remote add origin https://github.com/sooogooo/ebooks-beautiful-mind.git)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n添加MkDocs网站部署包和更新Claude设置\n\n- 新增mkdocs-website/目录，包含完整的MkDocs部署配置\n- 包含医美心理学电子书的所有章节内容\n- 配置了Material主题和中文优化\n- 更新Claude权限设置以支持Git操作\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push -u origin main)",
+      "Bash(git remote set-url origin git@github.com:sooogooo/ebooks-beautiful-mind.git)"
     ],
     "deny": [],
     "ask": []
